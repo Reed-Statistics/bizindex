@@ -1,0 +1,27 @@
+Package: bizindex
+Title: National Bureau of Economic Research Business Travel Index
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Vuk",
+           family = "Vukasovich",
+           role = c("aut" , "cre"),
+           email = "vukasovs@reed.edu"
+           )
+    person(given = "Ellen",
+           family = "Chen",
+           role = c("aut" , "cre"),
+           email = "elchen@reed.edu"
+           )
+    person(given = "Shulav",
+           family = "Neupane",
+           role = c("aut" , "cre"),
+           email = "neupanes@reed.edu"
+           )
+Description: This package contains the Business Travel Index, a dataset made by the National Bureau of Economic Research. The dataset describes the proportion of commercial air travel to and from cities that is for business purposes. Data is based off of the 1995 American Travel Survey. 
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1)
+URL:https://github.com/Reed-Statistics/bizindex
+BugReports: https://github.com/Reed-Statistics/bizindex/issues
+RoxygenNote: 7.0.2
